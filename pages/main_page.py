@@ -1,7 +1,7 @@
 import streamlit as st
-from download import download_data
-from preprocess import load_and_preprocess, process_data
-from apriori_analysis import apriori_rules
+from data.download import download_data
+from data.preprocess import load_and_preprocess, process_data
+from utils.apriori_analysis import apriori_rules
 import pandas as pd
 import openpyxl
 

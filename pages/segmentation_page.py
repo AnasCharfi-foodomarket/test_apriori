@@ -1,5 +1,5 @@
 import streamlit as st
-from download import download_data, download_segmentation_data
+from data.download import download_data, download_segmentation_data
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
